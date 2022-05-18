@@ -1,10 +1,10 @@
 while True:
   total = 0
-  custom_Name = input("Enter your name -")
+  custom_Name = input("Enter your name - ")
   
   while True:
-    quantity = int(input("Enter Quantity of items"))
-    items = int(input("Enter Number of items"))
+    quantity = int(input("Enter Quantity of items - "))
+    items = int(input("Enter Number of items - "))
     total = quantity*items
     repeat = input("Do you want to add more items(y/Y/n/N)")
     
@@ -18,7 +18,7 @@ while True:
     print("*****Thank you for shopping with us****")
     print("_"*50)
     
-    new_custom = input("Go to next customer(y/Y/n/N)")
+    new_customer = input("Go to Next Customer(y/Y/n/N)")
     
-    if new_custom=='n' or new_custom=='N':
+    if new_customer=='n' or new_customer=='N':
       break
